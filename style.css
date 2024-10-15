@@ -1,0 +1,279 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00bcd4;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+header nav a:hover {
+    color: #00bcd4;
+}
+header .cta {
+    display: flex;
+    align-items: center;
+}
+header .cta a {
+    margin-left: 15px;
+    padding: 10px 20px;
+    background: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header .cta a:hover {
+    background: #0097a7;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://placehold.co/1920x600') no-repeat center center/cover;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.search-bar select, .search-bar input {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-bar button {
+    padding: 10px 20px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background: #0097a7;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.categories .category {
+    margin: 0 10px;
+    text-align: center;
+}
+.categories .category i {
+    font-size: 24px;
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+.categories .category p {
+    font-size: 14px;
+    color: #333;
+}
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.tips {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tips .tip {
+    width: 200px;
+    margin: 0 10px;
+    text-align: center;
+}
+.tips .tip img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.tips .tip h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.tips .tip p {
+    font-size: 14px;
+    color: #666;
+}
+.map {
+    margin: 40px 0;
+}
+.directory {
+    background: #2c3e50;
+    color: #fff;
+    padding: 60px 20px;
+}
+.directory h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.directory p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.directory .items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.directory .item {
+    width: 200px;
+    margin: 0 10px;
+    text-align: center;
+}
+.directory .item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.directory .item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.directory .item p {
+    font-size: 14px;
+    color: #ccc;
+}
+.testimonial {
+    padding: 60px 20px;
+    text-align: center;
+}
+.testimonial h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.testimonial .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.testimonial .quote img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.testimonial .quote p {
+    font-size: 18px;
+    color: #666;
+}
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact form button {
+    padding: 10px 20px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact form button:hover {
+    background: #0097a7;
+}
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .column {
+    width: 200px;
+    margin: 0 10px;
+}
+footer .column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+footer .column p {
+    font-size: 14px;
+    color: #ccc;
+}
+footer .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer .social a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 18px;
+}
+footer .social a:hover {
+    color: #00bcd4;
+}
